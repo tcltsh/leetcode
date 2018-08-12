@@ -1,4 +1,6 @@
-class Solution {
+package l88;
+
+public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] new_arr = new int[m + n];
         int l1 = 0, l2 = 0, cnt = 0;
@@ -35,5 +37,4 @@ class Solution {
             System.out.println(i);
         }
     }
-
 }
